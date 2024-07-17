@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color:#D6EFD8;
     margin: auto;
 }
 
@@ -8,8 +8,7 @@ body::-webkit-scrollbar{
 }
 .header{
     width: 100%;
-    background-color: #80AF81;
-    height: 5ch;
+    background-color: white;
     padding-left: 1vw;
     position: fixed;
     left: 0;
@@ -26,7 +25,7 @@ body::-webkit-scrollbar{
 
 .logo{
     float:left;
-    color: white;
+    color:#80AF81;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: xx-large;
 }
@@ -35,10 +34,17 @@ body::-webkit-scrollbar{
     float:left;
     margin-top: 1ch;
     margin-right: 7vw;
-    color: white;
+    color: black;
     font-weight: 100;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'wonderlight', sans-serif; /* Name your font family */
+    src: url('wonder-light.ttf'); /* Locate the .ttf file within your directory*/
     font-size: large;
+}
+
+.buttons:hover{
+    color:#80AF81;
+    font-weight: bolder;
+
 }
 
 .secondarybuttons{
@@ -47,7 +53,7 @@ body::-webkit-scrollbar{
 
 .main{
     margin: auto;
-    margin-top: 5ch;
+    margin-top: 7ch;
     display:grid;
     grid-row-gap: 1ch;
     grid-column-gap: 1ch;
@@ -56,8 +62,58 @@ body::-webkit-scrollbar{
 
 }
 
-.item{
-    aspect-ratio: 1/1;
-    background-color:  #D6EFD8;
+.start{
+    margin-top: 20ch;
+    width: 100%;
 }
 
+.slogan{
+    margin-top: 20vh;
+    color: black;
+    font-size: 10ch;
+    margin: auto;
+    text-align: center;
+    font-family: 'wonderlight', sans-serif; /* Name your font family */
+    src: url('wonder-light.ttf'); /* Locate the .ttf file within your directory*/
+    font-weight: bold;
+}
+
+.subtext{
+    margin: auto;
+    width: 80ch;
+    margin-top: 3ch;
+    font-size: large;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'wonderlight', sans-serif;
+    src: url('wonder-light.ttf');
+}
+
+.item{
+    aspect-ratio: 1/1;
+    background-color:  white;
+}
+
+p{
+    margin: 0px;
+}
+
+.homebtn{
+    margin: auto;
+    display: inline;
+}
+
+.productsbtn{
+    font-size: x-large;
+    font-family: 'wonderlight', sans-serif;
+    src: url('wonder-light.ttf');
+    display: inline-block;
+}
+
+.contactbtn{
+
+    font-size: x-large;
+    font-family: 'wonderlight', sans-serif;
+    src: url('wonder-light.ttf');
+
+}
