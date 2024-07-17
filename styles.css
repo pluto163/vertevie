@@ -7,9 +7,11 @@ body::-webkit-scrollbar{
     display: none;
 }
 .header{
+    padding-left: 2rem;
+    display: inline;
+    border: solid 1px #80AF81;
     width: 100%;
-    background-color: white;
-    padding-left: 1vw;
+    background-color: #D6EFD8;
     position: fixed;
     left: 0;
     top: 0;
@@ -27,28 +29,36 @@ body::-webkit-scrollbar{
     float:left;
     color:#80AF81;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: xx-large;
+    font-size: 2.5rem;
 }
 
 .buttons{
+    padding: 1rem;
     float:left;
-    margin-top: 1ch;
-    margin-right: 7vw;
-    color: black;
-    font-weight: 100;
+    color: #80AF81;
+    font-weight: 400;
     font-family: 'wonderlight', sans-serif; /* Name your font family */
     src: url('wonder-light.ttf'); /* Locate the .ttf file within your directory*/
     font-size: large;
+    text-align: center;
+    text-decoration: none;
+    float: right;
 }
 
 .buttons:hover{
-    color:#80AF81;
-    font-weight: bolder;
+    background-color:#e3ba00;
+    color: #D6EFD8;
 
 }
 
 .secondarybuttons{
+    padding-right: 2rem;
+    text-decoration: none;
+    width: 40ch;
     float: right;
+    list-style-type: none ;
+    border: none;
+    margin: auto;
 }
 
 .main{
@@ -65,12 +75,15 @@ body::-webkit-scrollbar{
 .start{
     margin-top: 20ch;
     width: 100%;
+    text-align: center;
 }
 
 .slogan{
+    max-width: 18ch;
+    word-wrap: normal;
     margin-top: 20vh;
     color: black;
-    font-size: 10ch;
+    font-size: 8ch;
     margin: auto;
     text-align: center;
     font-family: 'wonderlight', sans-serif; /* Name your font family */
@@ -79,14 +92,16 @@ body::-webkit-scrollbar{
 }
 
 .subtext{
+    word-wrap: normal;
     margin: auto;
-    width: 80ch;
+    width: 100%;
     margin-top: 3ch;
     font-size: large;
     text-align: center;
-    font-weight: 600;
+    font-weight: 400;
     font-family: 'wonderlight', sans-serif;
     src: url('wonder-light.ttf');
+    max-width: 80ch;
 }
 
 .item{
@@ -100,20 +115,47 @@ p{
 
 .homebtn{
     margin: auto;
-    display: inline;
+    display: inline-block;
+
 }
 
 .productsbtn{
-    font-size: x-large;
+    font-weight: light;
+    width: 15ch;
+    height: 6ch;
+    font-size: large;
     font-family: 'wonderlight', sans-serif;
     src: url('wonder-light.ttf');
-    display: inline-block;
+    background-color: #80AF81;
+    border-radius: 1ch;
+    border:none;
+    margin: 1ch;
+    color: #D6EFD8;
+    letter-spacing: .1rem;
+}
+
+.productsbtn:hover{
+    background-color: #e3ba00;
 }
 
 .contactbtn{
-
-    font-size: x-large;
+    letter-spacing: .1rem;
+    border: solid 1px;
+    font-weight: light;
+    width: 25ch;
+    height: 6ch;
+    margin: 1ch;
+    border-radius: 1ch;
+    background-color: #D6EFD8;
+    border-color: #80AF81;
+    color: #80AF81;
+    font-size: large;
     font-family: 'wonderlight', sans-serif;
     src: url('wonder-light.ttf');
-
 }
+
+.contactbtn:hover{
+    border-color: #e3ba00;
+    color: #e3ba00;
+}
+
