@@ -1,0 +1,63 @@
+body{
+    background-color: white;
+    margin: auto;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+.header{
+    width: 100%;
+    background-color: #80AF81;
+    height: 5ch;
+    padding-left: 1vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.light{
+    font-weight: lighter;
+}
+
+.logo{
+    float:left;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+.buttons{
+    float:left;
+    margin-top: 1ch;
+    margin-right: 7vw;
+    color: white;
+    font-weight: 100;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.secondarybuttons{
+    float: right;
+}
+
+.main{
+    margin: auto;
+    margin-top: 5ch;
+    display:grid;
+    grid-row-gap: 1ch;
+    grid-column-gap: 1ch;
+    grid-template-columns: auto auto auto;
+    width: 85vw;
+
+}
+
+.item{
+    aspect-ratio: 1/1;
+    background-color:  #D6EFD8;
+}
+
